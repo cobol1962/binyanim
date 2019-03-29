@@ -24,9 +24,6 @@
       "phonegap-plugin-push": {
         "ANDROID_SUPPORT_V13_VERSION": "27.+",
         "FCM_VERSION": "11.6.2"
-      },
-      "cordova-plugin-x-socialsharing": {
-        "ANDROID_SUPPORT_V4_VERSION": "24.1.1+"
       }
     }
   },
@@ -46,9 +43,7 @@
     "cordova-plugin-network-information": "~1.3.3",
     "cordova-plugin-sms-receive": "^1.0.2",
     "cordova-plugin-vibration": "~2.1.5",
-    "cordova-plugin-x-socialsharing": "^5.4.4",
     "cordova-support-google-services": "^1.1.0",
-    "es6-promise-plugin": "^4.2.2",
     "phonegap-plugin-multidex": "^1.0.0",
     "phonegap-plugin-push": "^2.2.3"
   }

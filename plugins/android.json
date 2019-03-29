@@ -44,10 +44,6 @@
       "ANDROID_SUPPORT_V13_VERSION": "27.+",
       "FCM_VERSION": "11.6.2",
       "PACKAGE_NAME": "com.phonegap.helloworld"
-    },
-    "cordova-plugin-x-socialsharing": {
-      "ANDROID_SUPPORT_V4_VERSION": "24.1.1+",
-      "PACKAGE_NAME": "com.phonegap.helloworld"
     }
   },
   "dependent_plugins": {
@@ -58,9 +54,6 @@
       "PACKAGE_NAME": "com.phonegap.helloworld"
     },
     "phonegap-plugin-multidex": {
-      "PACKAGE_NAME": "com.phonegap.helloworld"
-    },
-    "es6-promise-plugin": {
       "PACKAGE_NAME": "com.phonegap.helloworld"
     }
   }
