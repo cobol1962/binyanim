@@ -41,6 +41,13 @@
 		7404423068444245811E4E6F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39D25622CB934A3BA9109500 /* SystemConfiguration.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		146B11A0DD8F4A63AF786641 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2076C8474F947EE9DCDF974 /* CoreTelephony.framework */; };
 		ED6842B835EC4BE1BE1E195F /* CDVVibration.m in Sources */ = {isa = PBXBuildFile; fileRef = AC231DCDD7214CD4A6271CA3 /* CDVVibration.m */; };
+		949AD41688CB4FE6B8BBC748 /* AppDelegate+notification.m in Sources */ = {isa = PBXBuildFile; fileRef = EA231FB3A25249278DEEDEF6 /* AppDelegate+notification.m */; };
+		E9F6541FF57741AFB82AE5DD /* PushPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = A22B95DACE404AFCBD811C5E /* PushPlugin.m */; };
+		DEFCBEAFAD3A4C20818CF73C /* PushKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2BCA664EC67449FAB91870D /* PushKit.framework */; };
+		FEA4D46D056D41E386978268 /* NSString+SSURLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 59D6CEAF33664DDAB45CEEB6 /* NSString+SSURLEncoding.m */; };
+		54D6E9F689414108ACB4AB40 /* SocialSharing.m in Sources */ = {isa = PBXBuildFile; fileRef = 2604733C58EB4E44BAF9CC72 /* SocialSharing.m */; };
+		ED0F7BEFF28345319FE8FCCC /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B00C84CEFA324957BEA8F8D1 /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		2C1941785A54461EA9EC370A /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50FD9CF6C0F844D28FB88518 /* MessageUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,6 +130,17 @@
 		D2076C8474F947EE9DCDF974 /* CoreTelephony.framework */ = {isa = PBXFileReference; name = "CoreTelephony.framework"; path = "System/Library/Frameworks/CoreTelephony.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 		AC231DCDD7214CD4A6271CA3 /* CDVVibration.m */ = {isa = PBXFileReference; name = "CDVVibration.m"; path = "cordova-plugin-vibration/CDVVibration.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
 		DCE2A037616D4607AB0C0AAB /* CDVVibration.h */ = {isa = PBXFileReference; name = "CDVVibration.h"; path = "cordova-plugin-vibration/CDVVibration.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		EA231FB3A25249278DEEDEF6 /* AppDelegate+notification.m */ = {isa = PBXFileReference; name = "AppDelegate+notification.m"; path = "phonegap-plugin-push/AppDelegate+notification.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		A22B95DACE404AFCBD811C5E /* PushPlugin.m */ = {isa = PBXFileReference; name = "PushPlugin.m"; path = "phonegap-plugin-push/PushPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		788CAAD5620347E198447BE1 /* AppDelegate+notification.h */ = {isa = PBXFileReference; name = "AppDelegate+notification.h"; path = "phonegap-plugin-push/AppDelegate+notification.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		7403C2E8AC7B4C45B9792E75 /* PushPlugin.h */ = {isa = PBXFileReference; name = "PushPlugin.h"; path = "phonegap-plugin-push/PushPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		B2BCA664EC67449FAB91870D /* PushKit.framework */ = {isa = PBXFileReference; name = "PushKit.framework"; path = "System/Library/Frameworks/PushKit.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		59D6CEAF33664DDAB45CEEB6 /* NSString+SSURLEncoding.m */ = {isa = PBXFileReference; name = "NSString+SSURLEncoding.m"; path = "cordova-plugin-x-socialsharing/NSString+SSURLEncoding.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		2604733C58EB4E44BAF9CC72 /* SocialSharing.m */ = {isa = PBXFileReference; name = "SocialSharing.m"; path = "cordova-plugin-x-socialsharing/SocialSharing.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		18BE66A7E2754D30BF0D59CF /* NSString+SSURLEncoding.h */ = {isa = PBXFileReference; name = "NSString+SSURLEncoding.h"; path = "cordova-plugin-x-socialsharing/NSString+SSURLEncoding.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		F88C804D5ACF435C9D32AD6B /* SocialSharing.h */ = {isa = PBXFileReference; name = "SocialSharing.h"; path = "cordova-plugin-x-socialsharing/SocialSharing.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		B00C84CEFA324957BEA8F8D1 /* Social.framework */ = {isa = PBXFileReference; name = "Social.framework"; path = "System/Library/Frameworks/Social.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		50FD9CF6C0F844D28FB88518 /* MessageUI.framework */ = {isa = PBXFileReference; name = "MessageUI.framework"; path = "System/Library/Frameworks/MessageUI.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +156,9 @@
 				EFC38F6B628D48B8B8E23DFB /* AudioToolbox.framework in Frameworks */,
 				7404423068444245811E4E6F /* SystemConfiguration.framework in Frameworks */,
 				146B11A0DD8F4A63AF786641 /* CoreTelephony.framework in Frameworks */,
+				DEFCBEAFAD3A4C20818CF73C /* PushKit.framework in Frameworks */,
+				ED0F7BEFF28345319FE8FCCC /* Social.framework in Frameworks */,
+				2C1941785A54461EA9EC370A /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,6 +238,9 @@
 				55A15F404CA340FBA9B75108 /* AudioToolbox.framework */,
 				39D25622CB934A3BA9109500 /* SystemConfiguration.framework */,
 				D2076C8474F947EE9DCDF974 /* CoreTelephony.framework */,
+				B2BCA664EC67449FAB91870D /* PushKit.framework */,
+				B00C84CEFA324957BEA8F8D1 /* Social.framework */,
+				50FD9CF6C0F844D28FB88518 /* MessageUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -275,6 +299,14 @@
 				95B011AA10704190B96B8903 /* CDVReachability.h */,
 				AC231DCDD7214CD4A6271CA3 /* CDVVibration.m */,
 				DCE2A037616D4607AB0C0AAB /* CDVVibration.h */,
+				EA231FB3A25249278DEEDEF6 /* AppDelegate+notification.m */,
+				A22B95DACE404AFCBD811C5E /* PushPlugin.m */,
+				788CAAD5620347E198447BE1 /* AppDelegate+notification.h */,
+				7403C2E8AC7B4C45B9792E75 /* PushPlugin.h */,
+				59D6CEAF33664DDAB45CEEB6 /* NSString+SSURLEncoding.m */,
+				2604733C58EB4E44BAF9CC72 /* SocialSharing.m */,
+				18BE66A7E2754D30BF0D59CF /* NSString+SSURLEncoding.h */,
+				F88C804D5ACF435C9D32AD6B /* SocialSharing.h */,
 			);
 			name = Plugins;
 			path = "helloworld/Plugins";
@@ -405,6 +437,10 @@
 				74F66B96C36344A3A97AFAE3 /* CDVConnection.m in Sources */,
 				230F2363F35C4B9AAF889564 /* CDVReachability.m in Sources */,
 				ED6842B835EC4BE1BE1E195F /* CDVVibration.m in Sources */,
+				949AD41688CB4FE6B8BBC748 /* AppDelegate+notification.m in Sources */,
+				E9F6541FF57741AFB82AE5DD /* PushPlugin.m in Sources */,
+				FEA4D46D056D41E386978268 /* NSString+SSURLEncoding.m in Sources */,
+				54D6E9F689414108ACB4AB40 /* SocialSharing.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
