@@ -369,6 +369,14 @@ module.exports = [
       "navigator.notification",
       "navigator"
     ]
+  },
+  {
+    "id": "cordova-plugin-sms-receive.SMSReceive",
+    "file": "plugins/cordova-plugin-sms-receive/www/SMSReceive.js",
+    "pluginId": "cordova-plugin-sms-receive",
+    "clobbers": [
+      "window.SMSReceive"
+    ]
   }
 ];
 module.exports.metadata = 
@@ -384,7 +392,8 @@ module.exports.metadata =
   "cordova-plugin-globalization": "1.0.9",
   "cordova-plugin-inappbrowser": "1.7.2",
   "cordova-plugin-network-information": "1.3.4",
-  "cordova-plugin-vibration": "2.1.6"
+  "cordova-plugin-vibration": "2.1.6",
+  "cordova-plugin-sms-receive": "1.0.2"
 };
 // BOTTOM OF METADATA
 });

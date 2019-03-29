@@ -35,6 +35,9 @@
     <feature name="Vibration">
         <param name="android-package" value="org.apache.cordova.vibration.Vibration" />
     </feature>
+    <feature name="SMSReceive">
+        <param name="android-package" value="com.andreszs.cordova.sms.SMSReceive" />
+    </feature>
     <name>helloworld</name>
     <description>
         Hello World sample application that responds to the deviceready event.
